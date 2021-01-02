@@ -1,0 +1,1142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: block_designer 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-04-09T18:32:41+02:00\n"
+"PO-Revision-Date: 2016-04-09T18:32:41+02:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/block_designer/controller.php:18
+#: packages/block_designer/controller.php:62
+msgid "Block Designer"
+msgstr ""
+
+#: packages/block_designer/controller.php:23
+msgid "Design your own content blocks within a few clicks!"
+msgstr ""
+
+#: packages/block_designer/controller.php:72
+msgid "Code"
+msgstr ""
+
+#: packages/block_designer/controller.php:73
+msgid "Color Picker"
+msgstr ""
+
+#: packages/block_designer/controller.php:74
+msgid "Date Time"
+msgstr ""
+
+#: packages/block_designer/controller.php:75
+msgid "Number"
+msgstr ""
+
+#: packages/block_designer/controller.php:76
+msgid "Text Box"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:9
+msgid "Installed"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:9
+msgid "Not Installed"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:22
+msgid "Click on a desired block type to load the config into the Block Designer form."
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:30
+msgid "There are currently no blocks available with loadable config files."
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:30
+msgid "Block info"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:34
+msgid "Create a new block type by entering some basic info and adding one or more fields (fields section)."
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:39
+msgid "Basics"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:40
+msgid "Interface"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:41
+msgid "Advanced"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:46
+msgid "Handle"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:47
+msgid "Lowercase letters and underscores only (without starting/ending with underscores) and a minimum of 3 characters"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:54
+msgid "Name"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:55
+msgid "Human-readable name"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:63
+#: packages/block_designer/elements/content_field.php:44
+msgid "Description"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:75
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:27
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:23
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:99
+msgid "Width"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:76
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:86
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:7
+#, php-format
+msgid "Between %s and %s"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:85
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:26
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:32
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:113
+msgid "Height"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:97
+msgid "Icon"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:98
+msgid "Ideally a 50x50 pixels image to be used to distinguish this block from others"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:105
+msgid "Direct install"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:112
+msgid "Default block type set"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:114
+#, php-format
+msgid "Lowercase letters and underscores only. Choose from %s or one of your own set handles."
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:122
+msgid "Block type set"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:132
+msgid "For advanced users only. Default values should be OK for all usages."
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:136
+msgid "Ignore Page Theme Grid Framework Container"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:142
+msgid "Cache block record"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:148
+msgid "Cache block output"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:155
+msgid "Cache block output on post"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:163
+msgid "Cache block output for registered users"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:171
+msgid "Cache block output lifetime"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:178
+msgid "Table prefix"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:179
+#, php-format
+msgid "Lowercase and uppercase letters only, with a minimum of %s and maximum of %s characters"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:187
+msgid "View CSS"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:195
+msgid "View JavaScript"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:211
+msgid "Delete"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:215
+msgid "Row"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:226
+msgid "Fields"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:232
+msgid "There are no fields added yet. Start adding one by clicking one of the field types below."
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:239
+msgid "Collapse All"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:243
+msgid "Expand All"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:247
+msgid "Scroll To Top"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:252
+msgid "Add a field"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:270
+#, php-format
+msgid "There are no field types (yet). Please update your package or <a href=\"%s\" target=\"_blank\">get help</a>."
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:281
+msgid "Make the block!"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:285
+msgid "Developed by"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:287
+msgid "Version"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_order.php:5
+msgid "Block order info"
+msgstr ""
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_order.php:8
+msgid "Order your blocks for each block type set. The order in which you arrange blocks is in which order they will show up while dragging blocks on the front end."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:58
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:29
+msgid "None"
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:58
+#, php-format
+msgid "-- %s -- "
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:96
+#, php-format
+msgid "Block type <strong>%s</strong> does not exist (anymore)."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:99
+msgid "You do not have permission to install custom block types or add-ons."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:102
+#, php-format
+msgid "Block type <strong>%s</strong> is already installed."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:109
+msgid "Block type installed successfully."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:140
+msgid "The block type does not seem to have an existing config file."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:144
+msgid "The block type does not seem to exist."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:168
+#, php-format
+msgid "Block type with handle <strong>%s</strong> already installed. Please use a different handle, before continuing this process."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:173
+#, php-format
+msgid "Block type folder <strong>%s</strong> already exists. You want to <a href=\"%s\" class=\"delete_folder\"><strong>delete this block type folder</strong></a>?"
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:177
+#, php-format
+msgid "<strong>%s</strong> is in the blacklist of to be used block handles. Please try another handle."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:182
+#, php-format
+msgid "Block handle <strong>%s</strong> does not match our pattern."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:190
+msgid "There was no block handle found. Please enter a block handle."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:261
+msgid "No"
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:262
+msgid "Yes"
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:276
+#, php-format
+msgid "Directory <strong>%s</strong> does not exist and needs to exist before you can use this package. Please create this in your environment and give it read, write and execute permissions (<strong>0777</strong>)."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:288
+msgid "Block handle"
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:288
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:324
+#, php-format
+msgid "Field <strong>%s</strong> is required"
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:324
+msgid "Block name"
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:340
+msgid "One or multiple fields are required to build a block."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:376
+#, php-format
+msgid "Block type %s created successfully."
+msgstr ""
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_order.php:57
+msgid "Other"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/StaticFieldType/StaticFieldType.php:16
+#: packages/block_designer/views/FieldType/StaticFieldType/field_options.php:5
+msgid "Static HTML"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/StaticFieldType/StaticFieldType.php:21
+msgid "Enter your static HTML here (or any other programming languages you prefer, like CSS/JS/PHP)"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/TextBoxFieldType/TextBoxFieldType.php:15
+msgid "A text input field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/EmailFieldType/EmailFieldType.php:16
+msgid "An email field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/NumberFieldType/NumberFieldType.php:15
+msgid "A number field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/ColorPickerFieldType/ColorPickerFieldType.php:15
+msgid "A color picker input field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/TextAreaFieldType/TextAreaFieldType.php:15
+msgid "A simple text area with no editing options"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/WysiwygFieldType/WysiwygFieldType.php:16
+msgid "WYSIWYG"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/WysiwygFieldType/WysiwygFieldType.php:21
+msgid "A 'What-You-See-Is-What-You-Get' text area"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/SelectFieldType/SelectFieldType.php:15
+msgid "A field with multiple options (also known as dropdown), where you need to pick one"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/SelectFieldType/SelectFieldType.php:49
+#, php-format
+msgid "No select choices were entered for row #%s."
+msgstr ""
+
+#: packages/block_designer/src/FieldType/CodeFieldType/CodeFieldType.php:15
+msgid "A simple text area to place in your PHP, HTML, CSS (or other) code"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/DateTimeFieldType/DateTimeFieldType.php:15
+msgid "A date + time, date or time field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/DateTimeFieldType/DateTimeFieldType.php:45
+#, php-format
+msgid "The date format field for '%s' (row #%s) is required"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/MarkdownFieldType/MarkdownFieldType.php:15
+msgid "A simple text area where you can use all markdown functionalities"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/StacksFieldType/StacksFieldType.php:15
+msgid "A stacks field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/FileFieldType/FileFieldType.php:17
+msgid "A file field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/YoutubeFieldType/YoutubeFieldType.php:15
+msgid "YouTube"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/YoutubeFieldType/YoutubeFieldType.php:20
+msgid "A YouTube embed field"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/LinkFieldType/LinkFieldType.php:16
+msgid "A page selector"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/UrlFieldType/UrlFieldType.php:15
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:31
+msgid "URL"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/UrlFieldType/UrlFieldType.php:20
+msgid "A text input field, where you would enter an http:// URL"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:18
+msgid "An image selector"
+msgstr ""
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:33
+#, php-format
+msgid "The %s for the image on row #%s has to be higher than 0."
+msgstr ""
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:36
+#, php-format
+msgid "The %s for the image on row #%s has to be a numeric value (floating numbers disallowed)."
+msgstr ""
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:40
+#, php-format
+msgid "No %s for the image on row #%s has been entered."
+msgstr ""
+
+#: packages/block_designer/src/BlockDesignerProcessor.php:346
+#, php-format
+msgid "There was no slug found for row #%s. Please try again."
+msgstr ""
+
+#: packages/block_designer/src/BlockDesignerProcessor.php:562
+msgid "An unknown field type was posted. Please try again."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/StaticFieldType/field_options.php:6
+msgid "Anything entered here will be directly outputted to the block view. Users will not be able to edit it."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:6
+msgid "Maximum number of characters"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:25
+msgid "Placeholder"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:36
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:73
+msgid "Fallback value"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:7
+#, php-format
+msgid "Output email as 'mailto' anchor (i.e.: %s)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:14
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:6
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:174
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:6
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:11
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:8
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:40
+msgid "Class(es)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:15
+#, php-format
+msgid "Class(es) to be added to your email anchor, i.e. '%s'"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:29
+msgid "Email subject"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:30
+msgid "The email subject when sending the email (some applications/email clients may not support this)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:8
+msgid "Database length"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:9
+msgid "The maximum length of the number"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:24
+msgid "Database decimals"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:25
+msgid "How many decimals the number may have"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:40
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:130
+msgid "Disallow float number"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:47
+msgid "Number format"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:54
+msgid "Decimals"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:55
+msgid "Sets the number of decimal points."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:68
+msgid "Decimal point"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:69
+msgid "Sets the separator for the decimal point."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:84
+msgid "Thousands separator"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:85
+msgid "Sets the thousands separator."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:103
+msgid "Minimum number"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:104
+msgid "Use a dot (.) as a decimal separator"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:117
+msgid "Maximum number"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:130
+#, php-format
+msgid "You can not enter floating numbers on the fields above, as the box '%s' has been checked."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:5
+msgid "General Options"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:12
+msgid "Always show up at full size (flat)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:13
+msgid "Positioned as an inline-block element"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:20
+msgid "Allow alpha transparency selection"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:27
+msgid "Automatically disable"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:34
+msgid "Show input"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:35
+msgid "Uses an input box with the color value"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:42
+msgid "Allow empty"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:43
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:102
+msgid "Clear Color Selection"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:43
+#, php-format
+msgid "Value can be cleared by clicking a '%s' button"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:50
+msgid "Show buttons"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:51
+msgid "If there are no buttons, the behavior will be to fire the `change` event (and update the original input) when the picker is closed."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:58
+msgid "Clickout fires change"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:59
+msgid "When clicking outside of the colorpicker, you can force it to fire a change event rather than having it revert the change."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:66
+msgid "Show the color that was initially set when opening"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:85
+msgid "Preferred Format"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:90
+msgid "None (Depends on input)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:91
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:228
+msgid "Hex"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:92
+msgid "Hex (3 Characters If Possible)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:93
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:232
+msgid "Hsl"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:94
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:236
+msgid "Rgb"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:95
+msgid "Name (Falls back to hex)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:102
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:109
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:116
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:123
+#, php-format
+msgid "'%s' text"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:109
+msgid "No Color Selected"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:116
+msgid "Choose"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:123
+msgid "Cancel"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:130
+msgid "Theme"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:131
+msgid "a-z, dashes and underscore only"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:138
+msgid "Palette Options"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:144
+msgid "Toggle Palette 'more' text"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:151
+msgid "Toggle Palette 'less' text"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:158
+msgid "Max Selection Size"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:159
+msgid "How many elements are allowed in the selection palette at once"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:168
+msgid "Show a button to toggle the colorpicker next to the palette"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:175
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:198
+msgid "Show a palette"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:176
+msgid "Positioned below the colorpicker to make it convenient for users to choose from frequently or recently used colors"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:183
+msgid "Show the palettes you specify, and nothing else"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:190
+msgid "Automatically hide after a palette color is selected"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:197
+msgid "Keep track of what has been selected by the user"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:198
+#, php-format
+msgid "requires '%s'"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:205
+msgid "Save selection in browser's localStorage object"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:212
+msgid "Palette Rows"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:216
+msgid "You can enter Hex, Hsl, Rgb, Rgba (with alpha) or Named color values. See the list below for examples"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:222
+msgid "Type"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:223
+msgid "Value"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:240
+msgid "Rgba"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:244
+msgid "Named"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:271
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:291
+msgid "Add Color"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:272
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:292
+msgid "Delete Row"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:296
+msgid "Add Row"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/TextAreaFieldType/field_options.php:7
+msgid "New line to blank rule"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/TextAreaFieldType/field_options.php:9
+#, php-format
+msgid "Returns entered string with '%s' or '%s' inserted before all newlines"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:6
+msgid "Select choices (one per line)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:7
+msgid "Set your own array key for values, by using 2 colons (' :: ') on each line - extra spaces required"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:14
+msgid "Value without a key, this will be assigned by the field type"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:28
+msgid "Use concrete5's translate function for all select choices (values)"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:34
+msgid "View output"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:39
+msgid "Build PHP switch, I will code the rest myself"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:40
+#, php-format
+msgid "Echo the selected key, i.e. %s"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:41
+#, php-format
+msgid "Echo the selected value, i.e. %s"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:6
+msgid "Date format"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:7
+#, php-format
+msgid "i.e. %s will generate %s - more info on <a href='%s' target='_blank'>%s</a>"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:13
+msgid "Datetimepicker plugin config"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:14
+msgid "View datetimepicker options/defaults"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:22
+msgid "Hide the date picker"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:28
+msgid "Hide the time picker"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:34
+msgid "Hide the seconds picker"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:40
+msgid "Hide the minutes picker"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:46
+msgid "Do not set the value to the current date/time"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:52
+msgid "Do not show the today indicator"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:58
+msgid "Show the date and time picker side by side"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:64
+msgid "Use 'strict' when validating dates"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:70
+msgid "Minute stepping"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:75
+msgid "Minimum date"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:76
+#, php-format
+msgid "i.e. %s"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:82
+msgid "Maximum date"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:83
+msgid "Defaults to today +100 years"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:89
+msgid "Default date"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/StacksFieldType/field_options.php:7
+msgid "Minimum stacks"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/StacksFieldType/field_options.php:24
+msgid "Maximum stacks"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:7
+#, php-format
+msgid "Class(es) to be added to your file, i.e. '%s'"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:24
+msgid "Use download link, instead of relative path link"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:30
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:6
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:56
+msgid "Link opens in a new window"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:36
+msgid "Show title field"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:43
+msgid "Required title field?"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:48
+msgid "Title placeholder"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:59
+msgid "Title fallback value"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:60
+msgid "If left blank and the user does not fill in a title, the name of the file will be used as title"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:7
+msgid "Video size"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:15
+msgid "Custom size"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:51
+msgid "Hide suggested videos when the video finishes"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:57
+msgid "Hide player controls"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:63
+msgid "Hide video title and player actions"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:69
+msgid "Enable privacy-enhanced mode"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:75
+msgid "Loop"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:81
+msgid "Hide YouTube logo"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:89
+msgid "Auto play"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:95
+msgid "Disable keyboard"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:101
+msgid "Show closed captions by default, even if the user has turned captions off"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:107
+msgid "Prevents the fullscreen button from displaying"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:113
+msgid "Video annotations to be not shown by default"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:124
+msgid "Start"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:125
+msgid "This parameter causes the player to begin playing the video at the given number of seconds from the start of the video"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:141
+msgid "End"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:142
+msgid "This specifies the time, measured in seconds from the start of the video, when the player should stop playing the video"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:159
+msgid "Auto hide"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:160
+msgid "The video progress bar"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:165
+msgid ".. fades out while the player controls remain visible"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:166
+msgid ".. and the player controls will slide out of view a couple of seconds after the video starts playing."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:167
+msgid ".. and the video player controls will be visible throughout the video and in fullscreen"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:174
+#, php-format
+msgid "Class(es) to be added to the iFrame, i.e. '%s'"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:7
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:12
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:41
+#, php-format
+msgid "Class(es) to be added to your link, i.e. '%s'"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:23
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:28
+msgid "Hide title field"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:26
+msgid "Do not show an extra field, where an alternative (page) title can be entered"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:31
+msgid "Do not show an extra field, where a title can be entered"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:9
+#, php-format
+msgid "Class(es) to be added to your image, i.e. '%s'"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:24
+msgid "Link"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:30
+msgid "Page"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:65
+msgid "Responsive image"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:68
+msgid "Uses Concrete5 image helper, to output the image."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:74
+msgid "Only output the source (path) of the image"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:81
+msgid "Make a thumbnail of the image"
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:87
+msgid "Width and height are required upon making the image a thumbnail. Both values are being entered in whole pixels (no decimals allowed)."
+msgstr ""
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:93
+msgid "Crop the image to the given width and height"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:9
+msgid "Label"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:10
+msgid "As seen in the form"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:22
+msgid "Slug"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:23
+msgid "This name will be used in the view file (a-zA-Z characters only)"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:40
+msgid "Required?"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:45
+msgid "Test the example"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:45
+msgid "The entered description will be shown with the very same question mark, next to the entered label. Users have to hover the question mark to show the description."
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:63
+msgid "Wrapper HTML open"
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:64
+#: packages/block_designer/elements/content_field.php:74
+msgid "i.e."
+msgstr ""
+
+#: packages/block_designer/elements/content_field.php:73
+msgid "Wrapper HTML close"
+msgstr ""

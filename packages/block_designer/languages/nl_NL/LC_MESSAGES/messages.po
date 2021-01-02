@@ -1,0 +1,1142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: block_designer 2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-04-01T10:52:57+02:00\n"
+"PO-Revision-Date: 2016-04-01T10:52:57+02:00\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/block_designer/controller.php:18
+#: packages/block_designer/controller.php:62
+msgid "Block Designer"
+msgstr "Block Designer"
+
+#: packages/block_designer/controller.php:23
+msgid "Design your own content blocks within a few clicks!"
+msgstr "Ontwerp je eigen content blokken binnen een paar klikken!"
+
+#: packages/block_designer/controller.php:72
+msgid "Code"
+msgstr "Code"
+
+#: packages/block_designer/controller.php:73
+msgid "Color Picker"
+msgstr "Kleurkiezer"
+
+#: packages/block_designer/controller.php:74
+msgid "Date Time"
+msgstr "Datum tijd"
+
+#: packages/block_designer/controller.php:75
+msgid "Number"
+msgstr "Nummer"
+
+#: packages/block_designer/controller.php:76
+msgid "Text Box"
+msgstr "Tekstvak"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:9
+msgid "Installed"
+msgstr "Geïnstalleerd"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:9
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:22
+msgid "Click on a desired block type to load the config into the Block Designer form."
+msgstr "Klik op een gewenste blok type om de configuratie in het Block Designer formulier in te laden."
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer/block_config.php:30
+msgid "There are currently no blocks available with loadable config files."
+msgstr "Er zijn momenteel geen blok types beschikbaar met in te laden configuratie bestanden"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:30
+msgid "Block info"
+msgstr "Blok type informatie"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:34
+msgid "Create a new block type by entering some basic info and adding one or more fields (fields section)."
+msgstr "Maak een nieuw blok type, door enkele basisgegevens in te vullen en een of meerdere velden toe te voegen (velden sectie)"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:39
+msgid "Basics"
+msgstr "Basisgegevens"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:40
+msgid "Interface"
+msgstr "Interface"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:41
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:46
+msgid "Handle"
+msgstr "Handvat"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:47
+msgid "Lowercase letters and underscores only (without starting/ending with underscores) and a minimum of 3 characters"
+msgstr "Enkel kleine letters en underscores (zonder beginnend/eindigend met underscores) en een minimum van 3 karakters"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:54
+msgid "Name"
+msgstr "Naam"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:55
+msgid "Human-readable name"
+msgstr "Leesbare naam"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:63
+#: packages/block_designer/elements/content_field.php:44
+msgid "Description"
+msgstr "Omschrijving"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:75
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:27
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:23
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:99
+msgid "Width"
+msgstr "Breedte"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:76
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:86
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:7
+#, php-format
+msgid "Between %s and %s"
+msgstr "Tussen %s en %s"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:85
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:26
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:32
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:113
+msgid "Height"
+msgstr "Hoogte"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:97
+msgid "Icon"
+msgstr "Pictogram"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:98
+msgid "Ideally a 50x50 pixels image to be used to distinguish this block from others"
+msgstr "Idealiter een 50x50 pixels afbeelding, gebruikt om dit blok type te onderscheiden van andere"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:105
+msgid "Direct install"
+msgstr "Direct installeren"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:112
+msgid "Default block type set"
+msgstr "Standaard blok type groep"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:114
+#, php-format
+msgid "Lowercase letters and underscores only. Choose from %s or one of your own set handles."
+msgstr "Enkel kleine letters en underscores. Kies uit %s of een van uw eigen blok type groep handvaten."
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:122
+msgid "Block type set"
+msgstr "Blok type groep"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:132
+msgid "For advanced users only. Default values should be OK for all usages."
+msgstr "Enkel voor geavanceerde gebruikers. Standaard waardes moeten OK zijn voor alle toepassingen"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:136
+msgid "Ignore Page Theme Grid Framework Container"
+msgstr "Negeer Page Theme Grid Framework Container"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:142
+msgid "Cache block record"
+msgstr "Cache block record"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:148
+msgid "Cache block output"
+msgstr "Cache block output"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:155
+msgid "Cache block output on post"
+msgstr "Cache block output met formulier/post waardes"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:163
+msgid "Cache block output for registered users"
+msgstr "Cache block output voor geregistreerde gebruikers"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:171
+msgid "Cache block output lifetime"
+msgstr "Cache block output duur"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:178
+msgid "Table prefix"
+msgstr "Tabel voorvoegsel"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:179
+#, php-format
+msgid "Lowercase and uppercase letters only, with a minimum of %s and maximum of %s characters"
+msgstr "Enkel kleine letters, hoofdletters en underscores, met een miminum van %s en een maximum van %s karakters"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:187
+msgid "View CSS"
+msgstr "View CSS"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:195
+msgid "View JavaScript"
+msgstr "View JavaScript"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:211
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:215
+msgid "Row"
+msgstr "Rij"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:226
+msgid "Fields"
+msgstr "Velden"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:232
+msgid "There are no fields added yet. Start adding one by clicking one of the field types below."
+msgstr "Er zijn nog geen velden toegevoegd. Begin met het toevoegen door te klikken op een van de veld types hier beneden."
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:239
+msgid "Collapse All"
+msgstr "Alles inklappen"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:243
+msgid "Expand All"
+msgstr "Alles uitklappen"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:247
+msgid "Scroll To Top"
+msgstr "Scroll naar boven"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:252
+msgid "Add a field"
+msgstr "Een veld toevoegen"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:270
+#, php-format
+msgid "There are no field types (yet). Please update your package or <a href=\"%s\" target=\"_blank\">get help</a>."
+msgstr "Er zijn (nog) geen veld types. Update uw extensie a.u.b. of <a href=\"%s\" target=\"_blank\">verkrijg hulp</a>."
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:281
+msgid "Make the block!"
+msgstr "Maak het blok!"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:285
+msgid "Developed by"
+msgstr "Ontwikkeld door"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_designer.php:287
+msgid "Version"
+msgstr "Versie"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_order.php:5
+msgid "Block order info"
+msgstr "Blok type volgorde informatie"
+
+#: packages/block_designer/single_pages/dashboard/blocks/block_order.php:8
+msgid "Order your blocks for each block type set. The order in which you arrange blocks is in which order they will show up while dragging blocks on the front end."
+msgstr "Orden uw blok types voor elk blok type groep. De volgorde waarin u de blok types plaatst, is de volgorde die getoond word wanneer u blok types toevoegt aan de voorkant van de website."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:58
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:29
+msgid "None"
+msgstr "Geen"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:58
+#, php-format
+msgid "-- %s -- "
+msgstr "-- %s -- "
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:96
+#, php-format
+msgid "Block type <strong>%s</strong> does not exist (anymore)."
+msgstr "Blok type <strong>%s</strong> bestaat niet (meer)."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:99
+msgid "You do not have permission to install custom block types or add-ons."
+msgstr "U heeft geen toestemming om aangepaste blok types of extensies te installeren"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:102
+#, php-format
+msgid "Block type <strong>%s</strong> is already installed."
+msgstr "Blok type <strong>%s</strong> is reeds geïnstalleerd."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:109
+msgid "Block type installed successfully."
+msgstr "Blok type is succesvol geïnstalleerd."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:140
+msgid "The block type does not seem to have an existing config file."
+msgstr "Het blok type lijkt geen bestaand configuratie bestand te hebben."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:144
+msgid "The block type does not seem to exist."
+msgstr "Het blok type lijkt niet te bestaan."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:168
+#, php-format
+msgid "Block type with handle <strong>%s</strong> already installed. Please use a different handle, before continuing this process."
+msgstr "Blok type met handvat <strong>%s</strong> is reeds geïnstalleerd. Gebruik a.u.b. een ander handvat, voordat u doorgaat met dit proces."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:173
+#, php-format
+msgid "Block type folder <strong>%s</strong> already exists. You want to <a href=\"%s\" class=\"delete_folder\"><strong>delete this block type folder</strong></a>?"
+msgstr "Blok type map <strong>%s</strong> bestaat reeds. Wilt u <a href=\"%s\" class=\"delete_folder\"><strong>deze blok type map verwijderen</strong></a>?"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:177
+#, php-format
+msgid "<strong>%s</strong> is in the blacklist of to be used block handles. Please try another handle."
+msgstr "<strong>%s</strong> staat op de zwarte lijst van te gebruiken handvaten. Probeer a.u.b. een ander handvat."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:182
+#, php-format
+msgid "Block handle <strong>%s</strong> does not match our pattern."
+msgstr "Blok type handvat <strong>%s</strong> komt niet overeen met ons patroon."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:190
+msgid "There was no block handle found. Please enter a block handle."
+msgstr "Er werd geen blok type handvat gevonden. Vul a.u.b. een blok type handvat in."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:261
+msgid "No"
+msgstr "Nee"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:262
+msgid "Yes"
+msgstr "Ja"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:276
+#, php-format
+msgid "Directory <strong>%s</strong> does not exist and needs to exist before you can use this package. Please create this in your environment and give it read, write and execute permissions (<strong>0777</strong>)."
+msgstr "Map <strong>%s</strong> bestaat niet en moet bestaan voordat deze extensie gebruikt kan worden. Maak deze map aan in uw omgeving en geef het lees-, schrijf- en uitvoer permissies (<strong>0777</strong>)."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:288
+msgid "Block handle"
+msgstr "Blok type handvat"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:288
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:324
+#, php-format
+msgid "Field <strong>%s</strong> is required"
+msgstr "Veld <strong>%s</strong> is verplicht"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:324
+msgid "Block name"
+msgstr "Blok type naam"
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:340
+msgid "One or multiple fields are required to build a block."
+msgstr "Een of meerdere velden zijn verplicht om een blok type te bouwen."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_designer.php:376
+#, php-format
+msgid "Block type %s created successfully."
+msgstr "Blok type type %s is succesvol gecreëerd."
+
+#: packages/block_designer/controllers/single_page/dashboard/blocks/block_order.php:67
+msgid "Other"
+msgstr "Anders"
+
+#: packages/block_designer/src/FieldType/StaticFieldType/StaticFieldType.php:16
+#: packages/block_designer/views/FieldType/StaticFieldType/field_options.php:5
+msgid "Static HTML"
+msgstr "Statische HTML"
+
+#: packages/block_designer/src/FieldType/StaticFieldType/StaticFieldType.php:21
+msgid "Enter your static HTML here (or any other programming languages you prefer, like CSS/JS/PHP)"
+msgstr "Vul uw statische HTML hier in (of elke andere programmeertaal u wilt, zoals CSS/JS/PHP)"
+
+#: packages/block_designer/src/FieldType/TextBoxFieldType/TextBoxFieldType.php:15
+msgid "A text input field"
+msgstr "Een tekst invoerveld"
+
+#: packages/block_designer/src/FieldType/EmailFieldType/EmailFieldType.php:16
+msgid "An email field"
+msgstr "Een email invoerveld"
+
+#: packages/block_designer/src/FieldType/NumberFieldType/NumberFieldType.php:15
+msgid "A number field"
+msgstr "Een numeriek invoerveld"
+
+#: packages/block_designer/src/FieldType/ColorPickerFieldType/ColorPickerFieldType.php:15
+msgid "A color picker input field"
+msgstr "Een kleur kiezer invoerveld"
+
+#: packages/block_designer/src/FieldType/TextAreaFieldType/TextAreaFieldType.php:15
+msgid "A simple text area with no editing options"
+msgstr "Een eenvoudig tekstgebied zonder bewerkingsopties"
+
+#: packages/block_designer/src/FieldType/WysiwygFieldType/WysiwygFieldType.php:16
+msgid "WYSIWYG"
+msgstr "WYSIWYG"
+
+#: packages/block_designer/src/FieldType/WysiwygFieldType/WysiwygFieldType.php:21
+msgid "A 'What-You-See-Is-What-You-Get' text area"
+msgstr "Een 'What-You-See-Is-What-You-Get' tekstgebied"
+
+#: packages/block_designer/src/FieldType/SelectFieldType/SelectFieldType.php:15
+msgid "A field with multiple options (also known as dropdown), where you need to pick one"
+msgstr "Een invoerveld met meerdere opties (ook wel bekend als 'dropdown'), waar u er een selecteerd"
+
+#: packages/block_designer/src/FieldType/SelectFieldType/SelectFieldType.php:49
+#, php-format
+msgid "No select choices were entered for row #%s."
+msgstr "Geen select keuzes zijn ingevoerd voor rij #% s."
+
+#: packages/block_designer/src/FieldType/CodeFieldType/CodeFieldType.php:15
+msgid "A simple text area to place in your PHP, HTML, CSS (or other) code"
+msgstr "Een eenvoudig tekstgebied om uw PHP, HTML, CSS (of andere) code in te plaatsen"
+
+#: packages/block_designer/src/FieldType/DateTimeFieldType/DateTimeFieldType.php:15
+msgid "A date + time, date or time field"
+msgstr "Een datum + tijd, datum of tijd invoerveld"
+
+#: packages/block_designer/src/FieldType/DateTimeFieldType/DateTimeFieldType.php:45
+#, php-format
+msgid "The date format field for '%s' (row #%s) is required"
+msgstr "Het datumnotatie veld voor '%s' (row #%s) is verplicht"
+
+#: packages/block_designer/src/FieldType/MarkdownFieldType/MarkdownFieldType.php:15
+msgid "A simple text area where you can use all markdown functionalities"
+msgstr "Een eenvoudig tekstgebied waarin alle markdown functionaliteiten in gebruikt kunnen worden"
+
+#: packages/block_designer/src/FieldType/StacksFieldType/StacksFieldType.php:15
+msgid "A stacks field"
+msgstr "Een 'stapels' invoerveld"
+
+#: packages/block_designer/src/FieldType/FileFieldType/FileFieldType.php:17
+msgid "A file field"
+msgstr "Een bestand invoerveld"
+
+#: packages/block_designer/src/FieldType/YoutubeFieldType/YoutubeFieldType.php:15
+msgid "YouTube"
+msgstr "YouTube"
+
+#: packages/block_designer/src/FieldType/YoutubeFieldType/YoutubeFieldType.php:20
+msgid "A YouTube embed field"
+msgstr "Een YouTube embed invoerveld"
+
+#: packages/block_designer/src/FieldType/LinkFieldType/LinkFieldType.php:16
+msgid "A page selector"
+msgstr "Een pagina-kiezer"
+
+#: packages/block_designer/src/FieldType/UrlFieldType/UrlFieldType.php:15
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:31
+msgid "URL"
+msgstr "URL"
+
+#: packages/block_designer/src/FieldType/UrlFieldType/UrlFieldType.php:20
+msgid "A text input field, where you would enter an http:// URL"
+msgstr "Een tekst invoerveld, waar u een http:// URL zou invoeren"
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:18
+msgid "An image selector"
+msgstr "Een afbeelding-kiezer"
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:33
+#, php-format
+msgid "The %s for the image on row #%s has to be higher than 0."
+msgstr "De %s voor de afbeelding op rij #%s moet groter zijn dan 0."
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:36
+#, php-format
+msgid "The %s for the image on row #%s has to be a numeric value (floating numbers disallowed)."
+msgstr "De %s voor de afbeelding op rij #%s moet een numerieke waarde zijn (decimale getallen niet toegestaan)."
+
+#: packages/block_designer/src/FieldType/ImageFieldType/ImageFieldType.php:40
+#, php-format
+msgid "No %s for the image on row #%s has been entered."
+msgstr "Geen %s voor de afbeelding op rij #%s is ingevoerd."
+
+#: packages/block_designer/src/BlockDesignerProcessor.php:346
+#, php-format
+msgid "There was no slug found for row #%s. Please try again."
+msgstr "Er werd geen slug gevonden voor rij #%s. Probeer het a.u.b. opnieuw."
+
+#: packages/block_designer/src/BlockDesignerProcessor.php:562
+msgid "An unknown field type was posted. Please try again."
+msgstr "Een onbekend veld type is meegestuurd. Probeer het a.u.b. opnieuw."
+
+#: packages/block_designer/views/FieldType/StaticFieldType/field_options.php:6
+msgid "Anything entered here will be directly outputted to the block view. Users will not be able to edit it."
+msgstr "Alles wat hier wordt ingevoerd, zal direct getoond worden binnen het blok type. Gebruikers hebben geen mogelijkheid om dit te bewerken."
+
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:6
+msgid "Maximum number of characters"
+msgstr "Maximaal aantal karakters"
+
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:25
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: packages/block_designer/views/FieldType/TextBoxFieldType/field_options.php:36
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:73
+msgid "Fallback value"
+msgstr "Terugval waarde"
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:7
+#, php-format
+msgid "Output email as 'mailto' anchor (i.e.: %s)"
+msgstr "Toon email als 'mailto' link (bijv.: %s)"
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:14
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:6
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:174
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:6
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:11
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:8
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:40
+msgid "Class(es)"
+msgstr "Klassenamen"
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:15
+#, php-format
+msgid "Class(es) to be added to your email anchor, i.e. '%s'"
+msgstr "Klassenamen welke toegevoegd zullen worden aan de email link, bijv. '%s'"
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:29
+msgid "Email subject"
+msgstr "Email onderwerp"
+
+#: packages/block_designer/views/FieldType/EmailFieldType/field_options.php:30
+msgid "The email subject when sending the email (some applications/email clients may not support this)"
+msgstr "Het email onderwerp wanneer de email verstuurd wordt (sommige toepassingen/e-mail clients zullen dit niet ondersteunen)"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:8
+msgid "Database length"
+msgstr "Database lengte"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:9
+msgid "The maximum length of the number"
+msgstr "De maximum lengte van het getal"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:24
+msgid "Database decimals"
+msgstr "Database decimalen"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:25
+msgid "How many decimals the number may have"
+msgstr "Hoeveel decimalen het nummer mag bevatten"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:40
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:130
+msgid "Disallow float number"
+msgstr "Decimale getallen weigeren"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:47
+msgid "Number format"
+msgstr "Getalnotatie"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:54
+msgid "Decimals"
+msgstr "Decimalen"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:55
+msgid "Sets the number of decimal points."
+msgstr "Zet het aantal decimalen."
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:68
+msgid "Decimal point"
+msgstr "Decimaalteken"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:69
+msgid "Sets the separator for the decimal point."
+msgstr "Zet het schedingsteken voor het decimaal getal."
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:84
+msgid "Thousands separator"
+msgstr "Duizendtal teken"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:85
+msgid "Sets the thousands separator."
+msgstr "Zet het teken om duizendtallen te scheiden."
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:103
+msgid "Minimum number"
+msgstr "Minimaal getal"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:104
+msgid "Use a dot (.) as a decimal separator"
+msgstr "Gebruik een punt (.) om decimalen te scheiden"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:117
+msgid "Maximum number"
+msgstr "Maximaal getal"
+
+#: packages/block_designer/views/FieldType/NumberFieldType/field_options.php:130
+#, php-format
+msgid "You can not enter floating numbers on the fields above, as the box '%s' has been checked."
+msgstr "U kunt geen decimale getallen in de velden hierboven invullen, omdat het veld '%s' is aangevinkt."
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:5
+msgid "General Options"
+msgstr "Algemene opties"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:12
+msgid "Always show up at full size (flat)"
+msgstr "Toon altijd op volledig formaat (plat)"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:13
+msgid "Positioned as an inline-block element"
+msgstr "Gepositioneerd als een 'inline-block' element"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:20
+msgid "Allow alpha transparency selection"
+msgstr "Sta alpha transparency selectie toe"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:27
+msgid "Automatically disable"
+msgstr "Automatisch uitschakelen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:34
+msgid "Show input"
+msgstr "Toon invoerveld"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:35
+msgid "Uses an input box with the color value"
+msgstr "Gebruik een invoerveld met de kleurwaarde"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:42
+msgid "Allow empty"
+msgstr "Sta leegwaarde toe"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:43
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:102
+msgid "Clear Color Selection"
+msgstr "Wis kleurselectie"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:43
+#, php-format
+msgid "Value can be cleared by clicking a '%s' button"
+msgstr "Waarde kan worden gewist door te klikken op '%s' knop"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:50
+msgid "Show buttons"
+msgstr "Toon knoppen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:51
+msgid "If there are no buttons, the behavior will be to fire the `change` event (and update the original input) when the picker is closed."
+msgstr "Indien er geen koppen zijn, zal het gedrag zijn om het `change` event te activeren (en het updaten van de originele invoer) wanneer de colorpicker wordt gesloten."
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:58
+msgid "Clickout fires change"
+msgstr "Erbuiten klikken activeert `change`"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:59
+msgid "When clicking outside of the colorpicker, you can force it to fire a change event rather than having it revert the change."
+msgstr "Wanneer buiten de colorpicker wordt gelikt, kunt u het forceren om een `change` event te actieveren, in plaats van het terugzetten van de wijziging."
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:66
+msgid "Show the color that was initially set when opening"
+msgstr "Toon de kleur die initieel was gezet bij het openen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:85
+msgid "Preferred Format"
+msgstr "Gewenste format"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:90
+msgid "None (Depends on input)"
+msgstr "Geen (hangt af van ingevulde waarde)"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:91
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:228
+msgid "Hex"
+msgstr "Hex"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:92
+msgid "Hex (3 Characters If Possible)"
+msgstr "Hex (3 karakters indien mogelijk)"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:93
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:232
+msgid "Hsl"
+msgstr "Hsl"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:94
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:236
+msgid "Rgb"
+msgstr "Rgb"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:95
+msgid "Name (Falls back to hex)"
+msgstr "Naam (valt terug naar hex)"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:102
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:109
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:116
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:123
+#, php-format
+msgid "'%s' text"
+msgstr "'%s' tekst"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:109
+msgid "No Color Selected"
+msgstr "Geen kleur geselecteerd"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:116
+msgid "Choose"
+msgstr "Kiezen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:123
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:130
+msgid "Theme"
+msgstr "Thema"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:131
+msgid "a-z, dashes and underscore only"
+msgstr "Enkel a-z, streepjes en underscore"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:138
+msgid "Palette Options"
+msgstr "Palet opties"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:144
+msgid "Toggle Palette 'more' text"
+msgstr "Palet 'meer' tekst"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:151
+msgid "Toggle Palette 'less' text"
+msgstr "Palet 'minder' tekst"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:158
+msgid "Max Selection Size"
+msgstr "Maximale selectie aantal"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:159
+msgid "How many elements are allowed in the selection palette at once"
+msgstr "Hoeveel elementen tegelijk er zijn toegestaan in de selectie van het palet"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:168
+msgid "Show a button to toggle the colorpicker next to the palette"
+msgstr "Toon een knop om de colorpicker naast het palet te tonen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:175
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:198
+msgid "Show a palette"
+msgstr "Toon een palet"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:176
+msgid "Positioned below the colorpicker to make it convenient for users to choose from frequently or recently used colors"
+msgstr "Gepositioneerd onder de colorpicker, om het handig te maken voor gebruikers om te kiezen uit vaak of recent gebruikte kleuren"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:183
+msgid "Show the palettes you specify, and nothing else"
+msgstr "Toon de paletten die u heeft opgegeven, en niets anders"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:190
+msgid "Automatically hide after a palette color is selected"
+msgstr "Automatisch verbergen nadat een palet kleur is geselecteerd"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:197
+msgid "Keep track of what has been selected by the user"
+msgstr "Houdt bij van wat er is geselecteerd door de gebruiker"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:198
+#, php-format
+msgid "requires '%s'"
+msgstr "vereist '%s'"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:205
+msgid "Save selection in browser's localStorage object"
+msgstr "Sla selectie in de browser zijn 'localStorage object' op"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:212
+msgid "Palette Rows"
+msgstr "Palet rijen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:216
+msgid "You can enter Hex, Hsl, Rgb, Rgba (with alpha) or Named color values. See the list below for examples"
+msgstr "U kunt Hex, Hsl, Rgb, Rgba (met alpha) of benoemde kleurwaardes invullen. Bekijk de lijst hieronder voor de voorbeelden"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:222
+msgid "Type"
+msgstr "Type"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:223
+msgid "Value"
+msgstr "Waarde"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:240
+msgid "Rgba"
+msgstr "Rgba"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:244
+msgid "Named"
+msgstr "Benoemd"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:271
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:291
+msgid "Add Color"
+msgstr "Kleur toevoegen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:272
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:292
+msgid "Delete Row"
+msgstr "Rij verwijderen"
+
+#: packages/block_designer/views/FieldType/ColorPickerFieldType/field_options.php:296
+msgid "Add Row"
+msgstr "Rij toevoegen"
+
+#: packages/block_designer/views/FieldType/TextAreaFieldType/field_options.php:7
+msgid "New line to blank rule"
+msgstr "Nieuwe regel naar witregel (nl2br)"
+
+#: packages/block_designer/views/FieldType/TextAreaFieldType/field_options.php:9
+#, php-format
+msgid "Returns entered string with '%s' or '%s' inserted before all newlines"
+msgstr "Zal ingevoerde string met '%s' of '%s' voorzien, voor alle nieuw begonnen regels"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:6
+msgid "Select choices (one per line)"
+msgstr "Select keuzes (een per regel)"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:7
+msgid "Set your own array key for values, by using 2 colons (' :: ') on each line - extra spaces required"
+msgstr "Zet uw eigen array key voor waardes, door 2 maal dubbele punt (' :: ') op elke regel te plaatsen - extra spaties verplicht"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:14
+msgid "Value without a key, this will be assigned by the field type"
+msgstr "Waarde zonder key, deze zal worden toegekend door het veld type zelf"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:28
+msgid "Use concrete5's translate function for all select choices (values)"
+msgstr "Gebruik concrete5's vertaal functie voor alle select keuzes (waardes)"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:34
+msgid "View output"
+msgstr "View output"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:39
+msgid "Build PHP switch, I will code the rest myself"
+msgstr "Bouw de PHP switch, ik codeer de rest zelf wel"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:40
+#, php-format
+msgid "Echo the selected key, i.e. %s"
+msgstr "Echo de geselecteerde key, bijv. %s"
+
+#: packages/block_designer/views/FieldType/SelectFieldType/field_options.php:41
+#, php-format
+msgid "Echo the selected value, i.e. %s"
+msgstr "Echo de geselecteerde waarde, bijv. %s"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:6
+msgid "Date format"
+msgstr "Datumnotatie"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:7
+#, php-format
+msgid "i.e. %s will generate %s - more info on <a href='%s' target='_blank'>%s</a>"
+msgstr "bijv. %s zal %s genereren - meer informatie op <a href='%s' target='_blank'>%s</a>"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:13
+msgid "Datetimepicker plugin config"
+msgstr "Datetimepicker plugin configuratie"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:14
+msgid "View datetimepicker options/defaults"
+msgstr "Bekijk datetimepicker opties/standaard waardes"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:22
+msgid "Hide the date picker"
+msgstr "Verberg de datum kiezer"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:28
+msgid "Hide the time picker"
+msgstr "Verberg de tijd kiezer"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:34
+msgid "Hide the seconds picker"
+msgstr "Verberg de seconden kiezer"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:40
+msgid "Hide the minutes picker"
+msgstr "Verberg de minuten kiezer"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:46
+msgid "Do not set the value to the current date/time"
+msgstr "Zet de waarde niet naar de huidige datum/tijd"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:52
+msgid "Do not show the today indicator"
+msgstr "Toon de huidige dag indicator niet"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:58
+msgid "Show the date and time picker side by side"
+msgstr "Toon de datum -en tijd kiezer zij aan zij"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:64
+msgid "Use 'strict' when validating dates"
+msgstr "Gebruik 'strict' bij het valideren van data"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:70
+msgid "Minute stepping"
+msgstr "Minuut stappen"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:75
+msgid "Minimum date"
+msgstr "Minimum datum"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:76
+#, php-format
+msgid "i.e. %s"
+msgstr "bijv. %s"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:82
+msgid "Maximum date"
+msgstr "Maximum datum"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:83
+msgid "Defaults to today +100 years"
+msgstr "Valt terug naar vandaag +100 jaar"
+
+#: packages/block_designer/views/FieldType/DateTimeFieldType/field_options.php:89
+msgid "Default date"
+msgstr "Standaard datum"
+
+#: packages/block_designer/views/FieldType/StacksFieldType/field_options.php:7
+msgid "Minimum stacks"
+msgstr "Minimum stapels"
+
+#: packages/block_designer/views/FieldType/StacksFieldType/field_options.php:24
+msgid "Maximum stacks"
+msgstr "Maximum stapels"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:7
+#, php-format
+msgid "Class(es) to be added to your file, i.e. '%s'"
+msgstr "Klassenamen welke toegevoegd zullen worden aan het bestand, bijv. '%s'"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:24
+msgid "Use download link, instead of relative path link"
+msgstr "Gebruik download link, in plaats van relatief pad link"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:30
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:6
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:56
+msgid "Link opens in a new window"
+msgstr "Link opent in een nieuw venster"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:36
+msgid "Show title field"
+msgstr "Toon titel veld"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:43
+msgid "Required title field?"
+msgstr "Verplicht titel veld?"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:48
+msgid "Title placeholder"
+msgstr "Titel placeholder"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:59
+msgid "Title fallback value"
+msgstr "Titel terugval waarde"
+
+#: packages/block_designer/views/FieldType/FileFieldType/field_options.php:60
+msgid "If left blank and the user does not fill in a title, the name of the file will be used as title"
+msgstr "Indien leeg gelaten en de gebruiker vult geen titel in, zal de naam van het bestand gebruikt worden als titel"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:7
+msgid "Video size"
+msgstr "Videospeler grootte"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:15
+msgid "Custom size"
+msgstr "Aangepaste grootte"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:51
+msgid "Hide suggested videos when the video finishes"
+msgstr "Verberg voorgestelde videos wanneer de video klaar is met afspelen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:57
+msgid "Hide player controls"
+msgstr "Verberg videospeler bedieningen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:63
+msgid "Hide video title and player actions"
+msgstr "Verberg video titel en videospeler acties"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:69
+msgid "Enable privacy-enhanced mode"
+msgstr "Uitgebreide privacy modus inschakelen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:75
+msgid "Loop"
+msgstr "Loop/herhalen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:81
+msgid "Hide YouTube logo"
+msgstr "Verberg YouTube logo"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:89
+msgid "Auto play"
+msgstr "Automatisch afsprelen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:95
+msgid "Disable keyboard"
+msgstr "Keyboard uitschakelen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:101
+msgid "Show closed captions by default, even if the user has turned captions off"
+msgstr "Toon gesloten bijschriften standaard, zelfs als de gebruiker bijschriften heeft uitgeschakeld"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:107
+msgid "Prevents the fullscreen button from displaying"
+msgstr "Voorkomt dat de volledig scherm-knop zichtbaar is"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:113
+msgid "Video annotations to be not shown by default"
+msgstr "Videoannotaties niet standaard tonen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:124
+msgid "Start"
+msgstr "Start"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:125
+msgid "This parameter causes the player to begin playing the video at the given number of seconds from the start of the video"
+msgstr "Deze parameter zorgt ervoor dat de videospeler de video gaat afspelen op het gegeven aantal seconden vanaf het begin van de video"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:141
+msgid "End"
+msgstr "Einde"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:142
+msgid "This specifies the time, measured in seconds from the start of the video, when the player should stop playing the video"
+msgstr "Dit specificeert de tijd, gemeten in seconde vanaf de start van de video, wanneer de player moet stoppen met het afspelen van de video"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:159
+msgid "Auto hide"
+msgstr "Automatisch verbergen"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:160
+msgid "The video progress bar"
+msgstr "De video voortgangsbalk"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:165
+msgid ".. fades out while the player controls remain visible"
+msgstr ".. verdwijnt, terwijl de player bedieningen zichtbaar blijven"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:166
+msgid ".. and the player controls will slide out of view a couple of seconds after the video starts playing."
+msgstr ".. en de videospeler bedieningen zullen uit het zicht verwijen een paar seconden nadat de video begint te spelen."
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:167
+msgid ".. and the video player controls will be visible throughout the video and in fullscreen"
+msgstr ".. en de videospeler bedieningen zullen zichtbaar zijn in de hele video en in volledig scherm-modus"
+
+#: packages/block_designer/views/FieldType/YoutubeFieldType/field_options.php:174
+#, php-format
+msgid "Class(es) to be added to the iFrame, i.e. '%s'"
+msgstr "Klassenamen welke toegevoegd zullen worden aan de iFrame, bijv. '%s'"
+
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:7
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:12
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:41
+#, php-format
+msgid "Class(es) to be added to your link, i.e. '%s'"
+msgstr "Klassenamen welke toegevoegd zullen worden aan de link, bijv. '%s'"
+
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:23
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:28
+msgid "Hide title field"
+msgstr "Verberg titel veld"
+
+#: packages/block_designer/views/FieldType/LinkFieldType/field_options.php:26
+msgid "Do not show an extra field, where an alternative (page) title can be entered"
+msgstr "Toon geen extra invoerveld, waar een alternatieve (pagina) titel kan worden ingevoerd"
+
+#: packages/block_designer/views/FieldType/UrlFieldType/field_options.php:31
+msgid "Do not show an extra field, where a title can be entered"
+msgstr "Toon geen extra invoerveld, waar een titel kan worden ingevoerd"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:9
+#, php-format
+msgid "Class(es) to be added to your image, i.e. '%s'"
+msgstr "Klassenamen die zullen worden toegevoegd aan de afbeelding, bijv. '%s'"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:24
+msgid "Link"
+msgstr "Link"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:30
+msgid "Page"
+msgstr "Pagina"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:65
+msgid "Responsive image"
+msgstr "Responsive afbeelding"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:68
+msgid "Uses Concrete5 image helper, to output the image."
+msgstr "Gebruik de concrete5 afbeelding-helper, om de afbeelding te tonen"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:74
+msgid "Only output the source (path) of the image"
+msgstr "Alleen de bron (pad) van de afbeelding tonen"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:81
+msgid "Make a thumbnail of the image"
+msgstr "Maak een miniatuur van de afbeelding"
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:87
+msgid "Width and height are required upon making the image a thumbnail. Both values are being entered in whole pixels (no decimals allowed)."
+msgstr "Breedte en hoogte zijn verplicht bij het maken van een miniatuur van de afbeelding. Beide waardes zullen worden ingevuld met gehele pixels (geen decimalen toegestaan)."
+
+#: packages/block_designer/views/FieldType/ImageFieldType/field_options.php:93
+msgid "Crop the image to the given width and height"
+msgstr "Snijd de afbeelding tot een gegeven breedte en hoogte"
+
+#: packages/block_designer/elements/content_field.php:9
+msgid "Label"
+msgstr "Label"
+
+#: packages/block_designer/elements/content_field.php:10
+msgid "As seen in the form"
+msgstr "Zoals te zien in het formulier"
+
+#: packages/block_designer/elements/content_field.php:22
+msgid "Slug"
+msgstr "Slug"
+
+#: packages/block_designer/elements/content_field.php:23
+msgid "This name will be used in the view file (a-zA-Z characters only)"
+msgstr "Deze naam wordt gebruikt in het view bestand (enkel a-zA-Z karakters)"
+
+#: packages/block_designer/elements/content_field.php:40
+msgid "Required?"
+msgstr "Verplicht?"
+
+#: packages/block_designer/elements/content_field.php:45
+msgid "Test the example"
+msgstr "Test het voorbeeld"
+
+#: packages/block_designer/elements/content_field.php:45
+msgid "The entered description will be shown with the very same question mark, next to the entered label. Users have to hover the question mark to show the description."
+msgstr "De ingevulde omschrijving zal worden getoond met exact hetzelfde vraagteken, naast het ingevulde label. Gebruikers moeten over het vraagteken bewegen met de muis om de omschrijving te zien."
+
+#: packages/block_designer/elements/content_field.php:63
+msgid "Wrapper HTML open"
+msgstr "Wrapper HTML openen"
+
+#: packages/block_designer/elements/content_field.php:64
+#: packages/block_designer/elements/content_field.php:74
+msgid "i.e."
+msgstr "bijv."
+
+#: packages/block_designer/elements/content_field.php:73
+msgid "Wrapper HTML close"
+msgstr "Wrapper HTML sluiten"
