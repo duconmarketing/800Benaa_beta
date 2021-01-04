@@ -397,6 +397,7 @@ var communityStore = {
 
 $(document).ready(function () {
     if ($('.store-checkout-form-shell').size() > 0) {
+
         //communityStore.updateBillingStates(true);
         communityStore.updateShippingStates(true);
         communityStore.showShippingMethods();

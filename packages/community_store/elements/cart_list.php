@@ -54,7 +54,6 @@ if ($cart) {
                         $temp_artt = substr($temp_artt, 0, 5);
                         if($temp_artt == '8BN03'){
                             echo '<br><span style="font-size: smaller; color: #953b39;">(only Dubai shipping)</span>';
-                            $handymanPro = 1;
                         }
                         ?>
 

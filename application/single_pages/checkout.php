@@ -133,6 +133,7 @@ use Concrete\Package\CommunityStore\Src\CommunityStore\Cart\Cart as StoreCart;
                                 </div>
                             </div>
                             <?php
+
                             $handymanPro = 0;
                            foreach ($cart as $k=>$cartItem){
                                $product = $cartItem['product']['object'];
@@ -143,9 +144,7 @@ use Concrete\Package\CommunityStore\Src\CommunityStore\Cart\Cart as StoreCart;
                                    $handymanPro = 1;
                                }
                            }
-
                             ?>
-
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="store-checkout-billing-state"><?= t("Emirate/Area *") ?></label>
@@ -581,7 +580,7 @@ use Concrete\Package\CommunityStore\Src\CommunityStore\Cart\Cart as StoreCart;
         });
     });    
     </script>
-<?php if(!$handymanPro){?>
+<?php if(!$handymanPro){ ?>
     <script>
         $(document).ready(function () {
             if ($('.store-checkout-form-shell').size() > 0) {
