@@ -154,6 +154,7 @@ use Concrete\Package\CommunityStore\Src\CommunityStore\Cart\Cart as StoreCart;
                                         <option value=""></option>
                                         <option value="DXB">Dubai</option>
                                     </select>
+                                        <span style="font-size: smaller; color: #953b39;">(supply and apply products have only Dubai shipping)</span>
                                     <?php } else {?>
                                         <?php $billingState = $customer->getAddressValue('billing_address', 'state_province'); ?>
                                         <?= $form->select('store-checkout-billing-state', $states, $billingState ? $billingState : ""); ?>

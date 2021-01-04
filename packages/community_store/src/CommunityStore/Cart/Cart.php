@@ -507,4 +507,13 @@ class Cart
     public static function getShippingInstructions() {
         return  \Session::get('communitystore.sInstructions');
     }
+
+    public function deleteMyProduct(){
+        $myProducts = array(436,412,347);
+        die('take DB Backup');
+        foreach ($myProducts as $mypro){
+            $product = StoreProduct::getByID($mypro);
+            $product->remove();
+        }
+    }
 }

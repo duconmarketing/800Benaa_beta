@@ -326,7 +326,9 @@ class FlatRateShippingMethod extends ShippingMethodTypeMethod
         $peritemrate = $this->getPerItemRate();
         $totalQty = 0;
         //go through items
+
         $heavy_shipping = 0;
+        $handyman_shipping = 0;
         foreach ($shippableItems as $item) {
             //check if items are shippable
             $product = StoreProduct::getByID($item['product']['pID']);
@@ -337,7 +339,7 @@ class FlatRateShippingMethod extends ShippingMethodTypeMethod
                 $heavy_shipping = 1;
             }
             if($product->getAttribute('handyman_shipping')){
-                $handyman_shipping = 1;
+                   $handyman_shipping = 1;
             }
         }
 //        if ($totalQty > 1) {
@@ -348,7 +350,7 @@ class FlatRateShippingMethod extends ShippingMethodTypeMethod
 //        $shippingTotal = $baserate;
 //        
         // Following code added to make shipping charge based on the product & location
-        
+
         if($handyman_shipping){
             $shippingTotal = 0;
         }else if($heavy_shipping){

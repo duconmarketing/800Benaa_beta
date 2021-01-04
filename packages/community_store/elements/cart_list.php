@@ -49,6 +49,14 @@ if ($cart) {
                         <a href="<?= URL::to(Page::getByID($product->getPageID())) ?>">
                             <?= $product->getName() ?>
                         </a>
+                        <?php
+                        $temp_artt = trim($product->getSKU());
+                        $temp_artt = substr($temp_artt, 0, 5);
+                        if($temp_artt == '8BN03'){
+                            echo '<br><span style="font-size: smaller; color: #953b39;">(only Dubai shipping)</span>';
+                            $handymanPro = 1;
+                        }
+                        ?>
 
                         <?php if ($cartItem['productAttributes']) { ?>
                             <div class="store-cart-item-attributes">
