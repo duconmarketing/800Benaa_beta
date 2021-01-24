@@ -87,28 +87,28 @@ if (is_object($product) && $product->isActive()) {
                                             //echo $brndName; 
                                             //die;
 
-                                            if ($brndName == 'Topex') {
-                                                ?>
+                                            if ($brndName == 'Topex') { ?>
                                                 <img class="xzoom-gallery" style="position:absolute;top:0px;left:10px;" src="<?php echo $this->getThemePath() ?>/images/topex.png" class="img-responsive brand_det">
-                                                <?php
-                                            } elseif ($brndName == "Phocee'nne") {
-
-                                                // echo 'sdfksgfkhgs';
-                                                ?>
+                                            <?php } elseif ($brndName == "Phocee'nne") {?>
                                                 <img class="xzoom-gallery" style="position:absolute;top:0px;left:10px;" src="<?php echo $this->getThemePath() ?>/images/phoceenne.png" class="img-responsive brand_det">
                                             <?php } elseif ($brndName == "EMC") { ?>
                                                 <img class="xzoom-gallery" style="position:absolute;top:0px;left:10px;" src="<?php echo $this->getThemePath() ?>/images/emc.png" class="img-responsive brand_det">
-                                            <?php } elseif ($brndName == "Sanshe") { ?>
-                                                <img class="xzoom-gallery" style="position:absolute;top:0px;left:55px;" src="<?php echo $this->getThemePath() ?>/images/sanshe.png" class="img-responsive brand_det">
+                                            <?php } elseif ($brndName == "NEO") { ?>
+                                                <img class="xzoom-gallery" style="position:absolute;top:0px;left:55px;height:40px;" src="<?php echo $this->getThemePath() ?>/images/neo.png" class="img-responsive brand_det">
+                                            <?php } elseif ($brndName == "GRAPHITE") { ?>
+                                                <img class="xzoom-gallery" style="position:absolute;top:0px;left:55px;height:33px;" src="<?php echo $this->getThemePath() ?>/images/graphite.png" class="img-responsive brand_det">
+                                            <?php } elseif ($brndName == "TOPEX NEW") { ?>
+                                                <img class="xzoom-gallery" style="position:absolute;top:0px;left:55px;height:33px;" src="<?php echo $this->getThemePath() ?>/images/topex_new.png" class="img-responsive brand_det">
+                                            <?php } elseif ($brndName == "VERTO") { ?>
+                                                <img class="xzoom-gallery" style="position:absolute;top:0px;left:55px;height:46px;" src="<?php echo $this->getThemePath() ?>/images/verto.png" class="img-responsive brand_det">
+                                            <?php } elseif ($brndName == "TAIF LED") { ?>
+                                                <img class="xzoom-gallery" style="position:absolute;top:0px;left:55px;height:125px;" src="<?php echo $this->getThemePath() ?>/images/taif_led.png" class="img-responsive brand_det">
                                             <?php } else { ?>
 
                                                 <?php
                                             }
                                         }
                                         ?>
-
-
-
                                     </a>
                                 </div>
                                 <?php
