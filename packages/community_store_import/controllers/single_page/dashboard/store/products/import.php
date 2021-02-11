@@ -271,9 +271,10 @@ class Import extends DashboardPageController
     private function update($p, $row)
     {
         if ($row['psku']) $p->setSKU($row['psku']);
-//        if ($row['pname']) $p->setName($row['pname']);
+ //       if ($row['pname']) $p->setName($row['pname']);
+
 //        if ($row['pdesc']) $p->setDescription($row['pdesc']);
-//        if ($row['pdetail']) $p->setDetail($row['pdetail']);
+ //       if ($row['pdetail']) $p->setDetail($row['pdetail']);
 //        if ($row['pfeatured']) $p->setIsFeatured($row['pfeatured']);
 //        if ($row['pqty']) $p->setQty($row['pqty']);
 //        if ($row['pnoqty']) $p->setNoQty($row['pnoqty']);
@@ -314,10 +315,10 @@ class Import extends DashboardPageController
 //        StoreProductImage::addImagesForProduct($row, $p);
 
          //Product attributes
-        $this->setAttributes($p, $row);
+ //       $this->setAttributes($p, $row);
 
 //        Product groups
-//        $this->setGroups($p, $row);
+ //       $this->setGroups($p, $row);
 
         $p = $p->save();
 
