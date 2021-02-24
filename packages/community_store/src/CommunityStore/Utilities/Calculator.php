@@ -30,9 +30,9 @@ class Calculator
                     $temp_attr = trim($product->getSKU());
                     $temp_attr = substr($temp_attr, 0, 5);
                     if(($temp_attr == '8BN03') && ($qty > 1)){
-                        $temp_ship = $price * 0.12;;
+                        $temp_ship = $price * 0.12;
                         $temp_price = $price - $temp_ship;
-                        $productSubTotal = ($temp_price * $qty) + $temp_ship;
+                        $productSubTotal = ($temp_price * ($qty - 1)) + $price;
                     } else{
                         $productSubTotal = $price * $qty;
                     }
