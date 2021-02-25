@@ -14,7 +14,7 @@ ob_start();
     <html>
     <head></head>
     <body>
-    <b>Dear Mr. Maged,</b><br /><br /><br />
+    <b>Hi, </b><br /><br /><br />
     Please find the details of the Online Order, Kindly confirm the product availability for the same.<br /><br /><br />
     Regards,<br />
     Ducon Team
