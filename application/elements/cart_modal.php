@@ -88,7 +88,7 @@ use \Concrete\Package\CommunityStore\Src\CommunityStore\Product\ProductOption\Pr
                                 $temp_artt = trim($product->getSKU());
                                 $temp_artt = substr($temp_artt, 0, 5);
                                 if($temp_artt == '8BN03'){
-                                    echo '<br><span style="font-size: smaller; color: #953b39;">(only Dubai shipping)</span>';
+                                    echo '<br><span style="font-size: smaller; color: #953b39;">(Available only in Dubai)</span>';
                                 }
                                 ?>
                                 <?php if($cartItem['productAttributes']){?>
