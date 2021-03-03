@@ -69,6 +69,12 @@ class Checkout extends Controller
                     $last_name = $customer->getValue('shipping_last_name');
                 }
 
+                if ($data['adrType'] == '') {                 //added for 'collect or delivery' option 25/2/2021
+                    Session::set('no_shipping', true);
+                }else{
+                    Session::set('no_shipping', false);
+                }
+
                 if (method_exists($addressraw, 'getDisplayValue')) {
                     $address = $addressraw->getDisplayValue();
                 } else {

@@ -380,6 +380,15 @@ $date7 = date('M d, Y', $date7);
                 ?>
             </td>
         </tr>
+        <?php if(Session::get('no_shipping')){ ?>
+            <tr>
+                <td align="right" ><strong class="cart-grand-total-label"><b><?= t("Shipping Type") ?>:</b></strong></td>
+                <td align="right"><?php
+                    echo 'Collect from Store';
+                    ?>
+                </td>
+            </tr>
+        <?php } ?>
         <tr>
             <td align="right" ><strong class="cart-grand-total-label"><b><?= t("TAX (5%)") ?>:</b></strong></td>
             <td align="right"><?php
@@ -417,7 +426,7 @@ $date7 = date('M d, Y', $date7);
         $mh->to('toafsar@gmail.com');
         $mh->cc('afsarlko@gmail.com');
         $mh->from('lead@800benaa.com');
-        $mail_body = '<html><body><b>Dear Mr. Maged,</b><br /><br />Please find the details of the Online Quotation, Kindly confirm the product availability for the same.<br /><br />Regards,<br />Ducon Team</body></html>';
+        $mail_body = '<html><body><b>Hi, </b><br /><br />Please find the details of the Online Quotation, Kindly confirm the product availability for the same.<br /><br />Regards,<br />Ducon Team</body></html>';
         $mh->setBodyHTML($mail_body);
         // $mh->setBody('Greetings From Ducon Industries FZCO, Hello Mr/Ms.' . $postValues['firstname'] . ' ' . $postValues['lname'] . ' Please find the attched Quotation with this email');
         $mh->setSubject(t('New Quotation Notification #EGL' . date('Y-m-d-h-i-s') . ''));

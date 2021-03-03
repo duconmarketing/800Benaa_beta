@@ -504,13 +504,18 @@ $(document).ready(function () {
         var sPostal = $("#store-checkout-shipping-zip").val();
         $("#store-checkout-form-group-shipping .store-checkout-form-group-body .store-checkout-errors").remove();
 
+        if($("input[name$='collectOrDelivery']:checked").val() == 2) {
+            shippingFlag = '';
+        }else{
+            shippingFlag = 'shipping';
+        }
         communityStore.waiting();
         var obj = $(this);
         $.ajax({
             url: CHECKOUTURL + "/updater",
             type: 'post',
             data: {
-                adrType: 'shipping',
+                adrType: shippingFlag,
                 fName: sfName,
                 lName: slName,
                 addr1: sAddress1,
@@ -524,8 +529,13 @@ $(document).ready(function () {
             success: function (result) {
                 var response = JSON.parse(result);
                 if (response.error == false) {
-                    obj.find('.store-checkout-form-group-summary .store-summary-name').html(response.first_name + ' ' + response.last_name);
-                    obj.find('.store-checkout-form-group-summary .store-summary-address').html(response.address);
+                    if(response.first_name && response.last_name){
+                        var nameShip = response.first_name + ' ' + response.last_name;
+                    }else{
+                        nameShip = 'NA';
+                    }
+                    obj.find('.store-checkout-form-group-summary .store-summary-name').html(nameShip);
+                    obj.find('.store-checkout-form-group-summary .store-summary-address').html(response.address ? response.address : 'NA');
                     communityStore.showShippingMethods(function(){
                         communityStore.refreshCartTotals();
                         communityStore.nextPane(obj);
@@ -656,5 +666,12 @@ $(document).ready(function () {
     $('.store-cart-modal-link').click(function (e) {
         e.preventDefault();
         communityStore.displayCart(false, true);
+    });
+
+    $(".collect-delivery").change(function () {
+        var delivery = $(this).val();
+        var delivery2 = Math.abs(delivery - 3);
+        $(".delivery-info-" + delivery).removeClass('hidden');
+        $(".delivery-info-" + delivery2).addClass('hidden');
     });
 });

@@ -251,7 +251,11 @@ class ShippingMethod
         if ($activeShippingMethod) {
             $currentOffer = $activeShippingMethod->getCurrentOffer();
             if ($currentOffer) {
-                return $currentOffer->getLabel();
+                if(\Session::get('no_shipping')){
+                    return 'Collect from Store';
+                }else{
+                    return $currentOffer->getLabel();
+                }                
             }
         }
 

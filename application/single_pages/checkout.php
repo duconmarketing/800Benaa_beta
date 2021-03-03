@@ -1,5 +1,7 @@
 <?php
 defined('C5_EXECUTE') or die(_("Access Denied."));
+
+use Concrete\Core\Support\Facade\Config;
 use \Concrete\Package\CommunityStore\Src\CommunityStore\Utilities\Price as StorePrice;
 use \Concrete\Package\CommunityStore\Src\Attribute\Key\StoreOrderKey as StoreOrderKey;
 use Concrete\Package\CommunityStore\Src\CommunityStore\Cart\Cart as StoreCart;
@@ -153,7 +155,7 @@ use Concrete\Package\CommunityStore\Src\CommunityStore\Cart\Cart as StoreCart;
                                         <option value=""></option>
                                         <option value="DXB">Dubai</option>
                                     </select>
-                                        <span style="font-size: smaller; color: #953b39;">(supply and apply products have only Dubai shipping)</span>
+                                        <span style="font-size: smaller; color: #953b39;">(Supply and Apply/ Services are available only in Dubai)</span>
                                     <?php } else {?>
                                         <?php $billingState = $customer->getAddressValue('billing_address', 'state_province'); ?>
                                         <?= $form->select('store-checkout-billing-state', $states, $billingState ? $billingState : ""); ?>
@@ -162,13 +164,40 @@ use Concrete\Package\CommunityStore\Src\CommunityStore\Cart\Cart as StoreCart;
                             </div>
                         </div>
                         <div class="row">
+                                <?php
+                                if(Config::get('community_store.collectFromStore')){                                        
+                                ?>
+                                <div class="panel-heading">
+                                    <h3><?= t("Delivery Options") ?></h3>
+                                </div>
+                                <div class="col-md-12">                                                                            
+                                    <div class="form-group">
+                                        <label>
+                                            <input type="radio" name="collectOrDelivery" class="collect-delivery" checked="checked"  value="1" /> Delivery
+                                        </label>
+                                                &nbsp;&nbsp;
+                                        <label>
+                                            <input type="radio" name="collectOrDelivery" class="collect-delivery"  value="2" /> Collect from Store
+                                        </label>                                        
+                                    </div>
+
+                                    <div class="delivery-info-1">
+                                        Products will be delivered to your address. Shipping Charge is applicable.
+                                    </div>
+                                    <div class="delivery-info-2 hidden">
+                                        You can collect products from our store. Shipping Charge will not be applied.
+                                    </div>
+                                </div>                                    
+
+                                <?php } ?>
+                            
                             <?php if ($shippingEnabled) { ?>
                             <div class="store-copy-billing-container col-md-12 text-right">
                                 <div class="form-group">
-                                <label>
-                                    <input type="checkbox" checked id="store-copy-billing" />
-                                    <?= t("Use these details for shipping") ?>
-                                </label>
+                                    <!-- <label>
+                                        <input type="checkbox" checked id="store-copy-billing" />
+                                        <?= t("Use these details for shipping") ?>
+                                    </label> -->                                    
                                 </div>
                             </div>
                             <?php } ?>

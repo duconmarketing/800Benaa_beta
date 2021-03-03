@@ -65,6 +65,10 @@ class Calculator
             $shippingTotal = 0;
         }
 
+        if(Session::get('no_shipping')){   //added for 'collect or delivery' option 25/2/2021
+            $shippingTotal = 0;
+        }
+
         return $shippingTotal;
     }
     public static function getTaxTotals()

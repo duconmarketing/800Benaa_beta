@@ -788,7 +788,7 @@ class Order
         $fromName = Config::get('community_store.emailalertsname');
 
         $fromEmail = Config::get('community_store.emailalerts');
-        $ccEmailStr = Config::get('community_store.notificationemails2');
+        $ccEmailStr = Config::get('community_store.notificationemails');
         $ccEmailArr = explode(',',$ccEmailStr);
 
         if (!$fromEmail) {

@@ -79,6 +79,7 @@ class Settings extends DashboardPageController
                 Config::save('community_store.shoppingDisabled',trim($args['shoppingDisabled']));
                 Config::save('community_store.receiptHeader',trim($args['receiptHeader']));
                 Config::save('community_store.receiptFooter',trim($args['receiptFooter']));
+                Config::save('community_store.collectFromStore',$args['collectFromStore']);
 
                 //save payment methods
                 if($args['paymentMethodHandle']){

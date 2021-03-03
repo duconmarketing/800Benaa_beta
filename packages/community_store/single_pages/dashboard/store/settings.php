@@ -88,6 +88,13 @@
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <label><?= $form->checkbox('collectFromStore', '1',Config::get('community_store.collectFromStore') ? '1' : '0')?>
+                                <?= t('Enable "Collect From Store" Option in Checkout');?></label>
+                        </div>
+                    </div>
+
 
                 </div><!-- #settings-shipping -->
 
