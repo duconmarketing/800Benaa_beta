@@ -128,9 +128,10 @@ ob_start();
                 <tr bgcolor="#ec7c05" style="background-color: #ec7c05d9;height:40px;">
                     <th style="border-bottom: 1px solid #aaa; text-align: left; padding-right: 10px;padding-left:10px; "><?= t('Product Name') ?></th>
                     <th style="border-bottom: 1px solid #aaa; text-align: center; padding-right: 10px;"><?= t('Product Code') ?></th>
+                    <th style="border-bottom: 1px solid #aaa; text-align: center; padding-right: 10px;"><?= t('Product Option') ?></th>
                     <th style="border-bottom: 1px solid #aaa; text-align: center; padding-right: 10px;"><?= t('Qty') ?></th>
                     <th style="border-bottom: 1px solid #aaa; text-align: right; padding-right: 10px;"><?= t('Price') ?></th>               
-                    <th style="border-bottom: 1px solid #aaa; text-align: right; padding-right: 10px;"><?= t('VAT %') ?></th>
+                    <!-- <th style="border-bottom: 1px solid #aaa; text-align: right; padding-right: 10px;"><?= t('VAT %') ?></th> -->
                     <th style="border-bottom: 1px solid #aaa; text-align: right;padding-right: 5px;"><?= t('Subtotal') ?></th>  
                 </tr>
             </thead>
@@ -149,31 +150,25 @@ ob_start();
                         $i++;
                         ?>
                         <tr style="height:40px;<?php echo $bgcolor; ?>">
-                            <td style="vertical-align: top; padding: 5px 10px 5px 10px;font-weight: bold;"><?= $item->getProductName() ?>
-                                <?php
-                                /*if ($sku = $item->getSKU()) {
-                                    echo '(' . $sku . ')';
-                                }*/
-                                ?>
-                            </td>
-                            <!--<td style="vertical-align: top; padding: 5px 10px 5px 0;">-->
-                                <?php
-//                                $options = $item->getProductOptions();
-//                                if ($options) {
-//                                    $optionOutput = array();
-//                                    foreach ($options as $option) {
-//                                        if ($option['oioValue']) {
-//                                            $optionOutput[] = "<strong>" . $option['oioKey'] . ": </strong>" . $option['oioValue'];
-//                                        }
-//                                    }
-//                                    echo implode('<br>', $optionOutput);
-//                                }
-                                ?>
-                            <!--</td>-->
+                            <td style="vertical-align: top; padding: 5px 10px 5px 10px;font-weight: bold;"><?= $item->getProductName() ?></td>
                             <td style="vertical-align: top; padding: 5px 10px 5px 0;text-align: center;"><?= $item->getSKU() ?></td>
+                            <td style="vertical-align: top; padding: 5px 10px 5px 0;text-align: center;">
+                                <?php
+                               $options = $item->getProductOptions();
+                               if ($options) {
+                                   $optionOutput = array();
+                                   foreach ($options as $option) {
+                                       if ($option['oioValue']) {
+                                           $optionOutput[] = "<strong>" . $option['oioKey'] . ": </strong>" . $option['oioValue'];
+                                       }
+                                   }
+                                   echo implode('<br>', $optionOutput);
+                               }
+                                ?>
+                            </td>                            
                             <td style="vertical-align: top; padding: 5px 10px 5px 0;text-align: center;"><?= $item->getQty() ?></td>
                             <td style="vertical-align: top; padding: 5px 10px 5px 0;text-align: right;"><?= ltrim(StorePrice::format($item->getPricePaid()), "AED") ?></td>
-                            <td style="vertical-align: top; padding: 5px 10px 5px 0;text-align: right;"><?php echo '5%'; ?></td>
+                            <!-- <td style="vertical-align: top; padding: 5px 10px 5px 0;text-align: right;"><?php echo '5%'; ?></td> -->
                             <td style="vertical-align: top; padding: 5px 5px 5px 0;text-align: right;"><?= ltrim(StorePrice::format($item->getSubTotal()), "AED") ?></td>
                         </tr>
                         <?php

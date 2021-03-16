@@ -194,12 +194,44 @@ if ($order) {
         $i=1;
         $items = $order->getOrderItems();
         if ($items) {
-            foreach ($items as $item) {
+            foreach ($items as $k => $item) {
                 $pObj = $item->getProductObject();
                 ?>
                 <tr style="border-bottom: 1px solid #000;" >
                     <td style="padding: 10px; width: 5%; text-align: center; border-bottom: 1px solid #000;"><?= $i++; ?></td>
-                    <td style="padding: 10px; width: 50%; text-align: left; border-bottom: 1px solid #000;" nowrap="true"><?= $item->getProductName() ?></td>
+                    <td style="padding: 10px; width: 50%; text-align: left; border-bottom: 1px solid #000;" nowrap="true">
+                        <?= $item->getProductName() ?>
+                        <?php if ($cart[$k]['productAttributes']) { ?>
+                        <div class="store-cart-list-item-attributes">
+                            <?php
+                            foreach ($cart[$k]['productAttributes'] as $groupID => $valID) {
+                                if (substr($groupID, 0, 2) == 'po') {
+                                    $groupID = str_replace("po", "", $groupID);
+                                    $optionvalue = StoreProductOptionItem::getByID($valID);
+
+                                    if ($optionvalue) {
+                                        $optionvalue = $optionvalue->getName();
+                                    }
+                                } elseif (substr($groupID, 0, 2) == 'pt') {
+                                    $groupID = str_replace("pt", "", $groupID);
+                                    $optionvalue = $valID;
+                                } elseif (substr($groupID, 0, 2) == 'pa') {
+                                    $groupID = str_replace("pa", "", $groupID);
+                                    $optionvalue = $valID;
+                                } elseif (substr($groupID, 0, 2) == 'ph') {
+                                    $groupID = str_replace("ph", "", $groupID);
+                                    $optionvalue = $valID;
+                                }
+                                $optiongroup = StoreProductOption::getByID($groupID);
+                                ?>
+                                <?php if ($optionvalue) { ?>
+                                    <span class="store-cart-list-item-attribute-label"> ( <?= ($optiongroup ? h($optiongroup->getName()) : '') ?>:</span>
+                                    <span class="store-cart-list-item-attribute-value"><?= ($optionvalue ? h($optionvalue) : '') ?> ) </span>
+                                <?php } ?>
+                            <?php } ?>
+                        </div>
+                    <?php } ?>    
+                    </td>
                     <td style="padding: 10px; width: 15%; text-align: center; border-bottom: 1px solid #000;"><?= $item->getSKU() ?></td>
                     <td style="padding: 10px; width: 7%; text-align: center; border-bottom: 1px solid #000;"><?= $item->getQty() ?></td>
                     <td style="padding: 10px; width: 12%; text-align: right; border-bottom: 1px solid #000;"><?= ltrim(StorePrice::format($item->getPricePaid()), "AED") ?></td>

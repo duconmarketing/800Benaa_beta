@@ -63,19 +63,28 @@ if ($products) {
                     //echo $brndName; 
                     //die;
 
-                    if ($brndName == 'Topex') {
-                        ?>
+                    if ($brndName == 'Topex') { ?>
                         <img src="<?php echo $this->getThemePath() ?>/images/topex.png" class="img-responsive brand_img">
-                        <?php
-                    } elseif ($brndName == "Phocee'nne") {
-
-                        // echo 'sdfksgfkhgs';
-                        ?>
+                    <?php } elseif ($brndName == "Phocee'nne") { ?>
                         <img src="<?php echo $this->getThemePath() ?>/images/phoceenne.png" class="img-responsive brand_img">
                     <?php } elseif ($brndName == "EMC") { ?>
                         <img src="<?php echo $this->getThemePath() ?>/images/emc.png" class="img-responsive brand_img">
                     <?php } elseif ($brndName == "Sanshe") { ?>
                         <img src="<?php echo $this->getThemePath() ?>/images/sanshe.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == 'Topex') { ?>
+                        <img src="<?php echo $this->getThemePath() ?>/images/topex.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == "Phocee'nne") {?>
+                        <img src="<?php echo $this->getThemePath() ?>/images/phoceenne.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == "EMC") { ?>
+                        <img src="<?php echo $this->getThemePath() ?>/images/emc.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == "NEO") { ?>
+                        <img src="<?php echo $this->getThemePath() ?>/images/neo.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == "GRAPHITE") { ?>
+                        <img src="<?php echo $this->getThemePath() ?>/images/graphite.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == "TOPEX NEW") { ?>
+                        <img src="<?php echo $this->getThemePath() ?>/images/topex_new.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == "VERTO") { ?>
+                        <img src="<?php echo $this->getThemePath() ?>/images/verto.png" class="img-responsive brand_img">
                     <?php } else { ?>
 
                     <?php } ?>

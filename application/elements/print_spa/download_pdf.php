@@ -295,10 +295,8 @@ $date7 = date('M d, Y', $date7);
                                     $optiongroup = StoreProductOption::getByID($groupID);
                                     ?>
                                     <?php if ($optionvalue) { ?>
-                                        <div class="store-cart-list-item-attribute">
-                                            <span class="store-cart-list-item-attribute-label"><?= ($optiongroup ? h($optiongroup->getName()) : '') ?>:</span>
-                                            <span class="store-cart-list-item-attribute-value"><?= ($optionvalue ? h($optionvalue) : '') ?></span>
-                                        </div>
+                                        <span class="store-cart-list-item-attribute-label">( <?= ($optiongroup ? h($optiongroup->getName()) : '') ?>:</span>
+                                        <span class="store-cart-list-item-attribute-value"><?= ($optionvalue ? h($optionvalue) : '') ?> )</span>
                                     <?php } ?>
                                 <?php } ?>
                             </div>
@@ -421,14 +419,13 @@ $date7 = date('M d, Y', $date7);
 
     if (file_exists('application/quotation/' . $pdfName)) {
         $mh = new MailService();
-        // $mh->to('marketing@duconind.com,sales@800benaa.com,maged@stemfze.com,akhalil@duconind.com');
+        // $mh->to('marketing@duconind.com,sales@800benaa.com,akhalil@duconind.com');
         // $mh->to('sabinonweb@gmail.com');
         $mh->to('toafsar@gmail.com');
         $mh->cc('afsarlko@gmail.com');
         $mh->from('lead@800benaa.com');
         $mail_body = '<html><body><b>Hi, </b><br /><br />Please find the details of the Online Quotation, Kindly confirm the product availability for the same.<br /><br />Regards,<br />Ducon Team</body></html>';
         $mh->setBodyHTML($mail_body);
-        // $mh->setBody('Greetings From Ducon Industries FZCO, Hello Mr/Ms.' . $postValues['firstname'] . ' ' . $postValues['lname'] . ' Please find the attched Quotation with this email');
         $mh->setSubject(t('New Quotation Notification #EGL' . date('Y-m-d-h-i-s') . ''));
         $afiles = array();
         $pdffilepath = DIR_BASE . '/application/quotation/' . $pdfname;

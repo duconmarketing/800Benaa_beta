@@ -141,7 +141,8 @@ class Import extends DashboardPageController
                 $this->update($p, $row);
                 $updated++;
             } else {
-                $p = $this->add($row);
+                // $p = $this->add($row);
+                echo $row['psku'];
                 $added++;
             }
             // @TODO: dispatch events - see Products::save()
@@ -281,7 +282,7 @@ class Import extends DashboardPageController
 //        if ($row['pqty']) $p->setQty($row['pqty']);
 //        if ($row['pnoqty']) $p->setNoQty($row['pnoqty']);
 //        if ($row['ptaxable']) $p->setISTaxable($row['ptaxable']);
-//        if ($row['pactive']) $p->setIsActive($row['pactive']);
+    //    if ($row['pactive']) $p->setIsActive($row['pactive']);
 //        if ($row['pshippable']) $p->setIsShippable($row['pshippable']);
 //        if ($row['pcreateuseraccount']) $p->setCreatesUserAccount($row['pcreateuseraccount']);
 //        if ($row['pautocheckout']) $p->setAutoCheckout($row['pautocheckout']);
@@ -314,7 +315,7 @@ class Import extends DashboardPageController
         // StoreProductLocation::addLocationsForProduct($row, $p);
 
         //save images
-//        StoreProductImage::addImagesForProduct($row, $p);
+       StoreProductImage::addImagesForProduct($row, $p);
 
          //Product attributes
  //       $this->setAttributes($p, $row);
