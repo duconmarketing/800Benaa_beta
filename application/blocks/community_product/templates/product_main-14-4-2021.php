@@ -167,18 +167,9 @@ if (is_object($product) && $product->isActive()) {
                             echo '<a href="tel:80023622"><h3> CONTACT US </h3></a><br>';
                         } else {
                             if (isset($salePrice) && $salePrice != "") {
-                                ?>
-                                <!-- <span style='color:black;text-decoration:line-through;font-size:30px;'>
-                                    <span style='color:#ec7c05'><h3 style="font-size: 20px;"><?= $product->getFormattedOriginalPrice() ?></h3></span>
-                                </span> -->
-                                <?php                                
-
-                                echo '<h3><span class="store-original-price" style="text-decoration: line-through;color:#868686;">' . $product->getFormattedOriginalPrice() . '</span></h3>';                                                                                           
-
-                                echo "<h3><strong style='color:#fb0c0c;font-size: 18px;'>RAMADAN OFFER</strong>";
-
-                                echo '<span style="color:#ec7c05;font-size:24px;">&nbsp;&nbsp;' . $product->getFormattedSalePrice() . $unit . $count . '</span><span style="font-size: 14px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span></h3>';      
-                                
+                                echo '<h3>' . $product->getFormattedSalePrice() . $unit . $count . '<span style="font-size: 14px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span><br>';
+                                //echo '&nbsp;'.t('was').'&nbsp;';
+                                echo '<span class="store-original-price" style="text-decoration: line-through;color:#999;font-size: 16px;">' . $product->getFormattedOriginalPrice() . '</span></h3>';
                                 echo '<meta itemprop="price" content="' . $product->getSalePrice() . '" />';
                             } else {
                                 // echo '<h3>'.$product->getFormattedPrice().'</h3>';

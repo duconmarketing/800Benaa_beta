@@ -75,6 +75,10 @@ class Import extends DashboardPageController
         // Get headings
         $csv = fgetcsv($handle, $line_length, $delim, $enclosure);
         $headings = array_map('strtolower', $csv);
+        
+        foreach($headings as $key => $row){
+            $headings[$key] = preg_replace('/[^A-Za-z0-9\-]/', '', $row); // added to remove special characters in utf-8 csv format.
+        }
 
         if ($this->isValid($headings)) {
             $this->error->add(t("Required data missing."));
@@ -142,7 +146,6 @@ class Import extends DashboardPageController
                 $updated++;
             } else {
                 // $p = $this->add($row);
-                echo $row['psku'];
                 $added++;
             }
             // @TODO: dispatch events - see Products::save()
@@ -272,24 +275,21 @@ class Import extends DashboardPageController
     private function update($p, $row)
     {
         if ($row['psku']) $p->setSKU($row['psku']);
-        // if ($row['psku']) $p->setSKU($row['psku2']);
-        
- //       if ($row['pname']) $p->setName($row['pname']);
-
-//        if ($row['pdesc']) $p->setDescription($row['pdesc']);
- //       if ($row['pdetail']) $p->setDetail($row['pdetail']);
+        // if ($row['pname']) $p->setName($row['pname']);
+        // if ($row['pdesc']) $p->setDescription($row['pdesc']);
+        // if ($row['pdetail']) $p->setDetail($row['pdetail']);
 //        if ($row['pfeatured']) $p->setIsFeatured($row['pfeatured']);
 //        if ($row['pqty']) $p->setQty($row['pqty']);
 //        if ($row['pnoqty']) $p->setNoQty($row['pnoqty']);
 //        if ($row['ptaxable']) $p->setISTaxable($row['ptaxable']);
-    //    if ($row['pactive']) $p->setIsActive($row['pactive']);
+        // if ($row['pactive']) $p->setIsActive($row['pactive']);
 //        if ($row['pshippable']) $p->setIsShippable($row['pshippable']);
 //        if ($row['pcreateuseraccount']) $p->setCreatesUserAccount($row['pcreateuseraccount']);
 //        if ($row['pautocheckout']) $p->setAutoCheckout($row['pautocheckout']);
 //        if ($row['pexclusive']) $p->setIsExclusive($row['pexclusive']);
 
 //        if ($row['pprice']) $p->setPrice($row['pprice']);
-//        if ($row['psaleprice']) $p->setSalePrice($row['psaleprice']);
+    //    if ($row['psaleprice']) $p->setSalePrice($row['psaleprice']);
 //        if ($row['ppricemaximum']) $p->setPriceMaximum($row['ppricemaximum']);
 //        if ($row['ppriceminimum']) $p->setPriceMinimum($row['ppriceminimum']);
 //        if ($row['ppricesuggestions']) $p->setPriceSuggestions($row['ppricesuggestions']);
@@ -315,13 +315,13 @@ class Import extends DashboardPageController
         // StoreProductLocation::addLocationsForProduct($row, $p);
 
         //save images
-       StoreProductImage::addImagesForProduct($row, $p);
+        // StoreProductImage::addImagesForProduct($row, $p);
 
          //Product attributes
- //       $this->setAttributes($p, $row);
+        // $this->setAttributes($p, $row);
 
 //        Product groups
- //       $this->setGroups($p, $row);
+//        $this->setGroups($p, $row);
 
         $p = $p->save();
 

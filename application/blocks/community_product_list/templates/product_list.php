@@ -85,8 +85,9 @@ if ($products) {
                         <img src="<?php echo $this->getThemePath() ?>/images/topex_new.png" class="img-responsive brand_img">
                     <?php } elseif ($brndName == "VERTO") { ?>
                         <img src="<?php echo $this->getThemePath() ?>/images/verto.png" class="img-responsive brand_img">
+                    <?php } elseif ($brndName == "TAIF LED") { ?>
+                        <img style="width:50px;" src="<?php echo $this->getThemePath() ?>/images/taif_led.png" class="img-responsive brand_img">
                     <?php } else { ?>
-
                     <?php } ?>
                     <div class="product_des">
                         <?php if ($showName) { ?>
@@ -109,12 +110,12 @@ if ($products) {
                                 }
                             } else {
                                 ?>
-                                <h6>
+                                <h6 style="color:#fb0c0c;">
                                     <?php
                                     $salePrice = $product->getSalePrice();
                                     if (isset($salePrice) && $salePrice != "") {
                                         echo $product->getFormattedSalePrice() . '<span style="font-size: 14px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span><br>';
-                                        echo '<span class="store-original-price" style="color: #999;font-size: 13px;">' . $product->getFormattedOriginalPrice() . '</span>';
+                                        echo '<span class="store-original-price" style="color: #7b7878;font-size: 15px;">' . $product->getFormattedOriginalPrice() . '</span>';
                                     } else {
                                         echo $product->getFormattedPrice() . '<span style="font-size: 12px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span>';
                                     }
@@ -158,7 +159,7 @@ if ($products) {
                             </p>
                             <p class="store-out-of-stock-label alert-warning <?= ($product->isSellable() ? 'hidden' : ''); ?>">
                                 <a class="btn btn-primary" style="cursor: default; background-color: white; color: #000;">
-                                    <?= t("Out of Stock") ?>
+                                    <?= t("OUT OF STOCK") ?>
                                 </a>
                             </p>
                         <?php }
