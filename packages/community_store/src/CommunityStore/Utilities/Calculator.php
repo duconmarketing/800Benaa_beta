@@ -60,7 +60,29 @@ class Calculator
         }
 
         if (is_object($shippingMethod) && $shippingMethod->getCurrentOffer()) {
-            $shippingTotal = $shippingMethod->getCurrentOffer()->getRate();
+            
+            $cart = StoreCart::getCart();
+            $stmproduct = false;
+            if ($cart) {
+                foreach ($cart as $cartItem) {
+                    $product = $cartItem['product']['object'];
+                    if (is_object($product)) {                        
+                        $temp_attr = trim($product->getSKU());
+                        $temp_attr = substr($temp_attr, 0, 3);
+                        if($temp_attr == 'STM'){
+                            $stmproduct = true;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if($stmproduct){
+                $shippingTotal = $shippingMethod->getCurrentOffer()->getRate();
+            }else{
+                $shippingTotal = 30;
+            }
+            
         } else {
             $shippingTotal = 0;
         }
