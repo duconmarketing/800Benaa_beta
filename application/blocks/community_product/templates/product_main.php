@@ -175,9 +175,9 @@ if (is_object($product) && $product->isActive()) {
 
                                 echo '<h3><span class="store-original-price" style="text-decoration: line-through;color:#868686;">' . $product->getFormattedOriginalPrice() . '</span></h3>';                                                                                           
 
-                                echo "<h3><strong style='color:#fb0c0c;font-size: 18px;'>RAMADAN OFFER</strong>";
+                                // echo "<h3><strong style='color:#fb0c0c;font-size: 18px;'>RAMADAN OFFER</strong>";
 
-                                echo '<span style="color:#ec7c05;font-size:24px;">&nbsp;&nbsp;' . $product->getFormattedSalePrice() . $unit . $count . '</span><span style="font-size: 14px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span></h3>';      
+                                echo '<h3><span style="color:#ec7c05;font-size:24px;">' . $product->getFormattedSalePrice() . $unit . $count . '</span><span style="font-size: 14px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span></h3>';      
                                 
                                 echo '<meta itemprop="price" content="' . $product->getSalePrice() . '" />';
                             } else {

@@ -109,18 +109,20 @@ if ($products) {
                                     <?php
                                 }
                             } else {
-                                ?>
-                                <h6 style="color:#fb0c0c;">
+                                ?>                                
                                     <?php
                                     $salePrice = $product->getSalePrice();
                                     if (isset($salePrice) && $salePrice != "") {
+                                        echo '<h6 style="color:#fb0c0c;">';
                                         echo $product->getFormattedSalePrice() . '<span style="font-size: 14px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span><br>';
                                         echo '<span class="store-original-price" style="color: #7b7878;font-size: 15px;">' . $product->getFormattedOriginalPrice() . '</span>';
+                                        echo '</h6>';
                                     } else {
+                                        echo '<h6>';
                                         echo $product->getFormattedPrice() . '<span style="font-size: 12px;color: #000;text-transform: none;font-weight:normal;"> Ex VAT</span>';
+                                        echo '</h6>';
                                     }
                                     ?>
-                                </h6>
                             <?php } ?>
                         <?php } ?>
                         <?php
