@@ -314,8 +314,8 @@ if (is_object($product) && $product->isActive()) {
                         ?>
 
                         <?php if ($product->allowQuantity() && $showQuantity) { ?>
-                            <div class="store-product-quantity form-group">
-                                <label class="store-product-option-group-label">
+                            <div class="store-product-quantity form-group <?= ($product->isSellable() ? '' : 'hidden'); ?>">
+                                <label class="store-product-option-group-label ">
                                     <?= t('Quantity') ?>
                                 </label>
                                 <input type="number" name="quantity" class="store-product-qty form-control" value="<?= $minQty ?>" min="<?= $minQty ?>" step="1" style="width:20%;">
